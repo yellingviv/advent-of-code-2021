@@ -16,3 +16,5 @@ for line in data:
     elif counter == 0:
         prev = line
     counter += 1
+
+print(f'Final increase count: {increases}')
